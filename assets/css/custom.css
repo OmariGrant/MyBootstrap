@@ -17,6 +17,7 @@ h1{
       background-color: #555;
       color: white;
       padding: 15px;
+      text-align: center;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -28,15 +29,27 @@ h1{
       .row.content {height: auto;} 
     }
 
+    .menu-item {
+     
+      border: solid;
+      color: white;
+      font-weight: bold;
+    }
+    .menu-item a {
+      color: lightblue;
+      font-weight: bold;
+    }
 
-/*start homepage banner css*/
+    .widget-area a {
+     
+      color: lightblue;
+      font-weight: bold;
+    }
+
+/*start homepage banner css
     .bannerImage {
       width: 100%;
       height: 100%;
     }
 
-    .carousel-caption {
-      color: gray;
-      margin-top: 200px; 
-    }
-/*end homepage banner css*/
+end homepage banner css*/

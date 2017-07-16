@@ -9,6 +9,7 @@
     <div class="col-sm-9">
 
     <?php get_template_part( 'template-parts/homepage', 'banner' ); ?>
+    <?php get_template_part( 'template-parts/homepage', 'content' ); ?>
     <?php get_template_part( 'template-parts/homepage', 'posts' ); ?>
 
 

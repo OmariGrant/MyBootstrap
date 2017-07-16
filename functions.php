@@ -7,7 +7,7 @@ function addBootstrap() {
    
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
  wp_enqueue_style( 'mainCSS', get_template_directory_uri() . '/assets/css/custom.css' );
-     //wp_enqueue_script( 'bootstrapJS', get_template_directory_uri() . '/assets/js/jquery.min.js');
+     wp_enqueue_script( 'bootstrapJS', get_template_directory_uri() . '/assets/js/jquery.min.js');
 	wp_enqueue_script( 'jQuery', get_template_directory_uri() . '/assets/js/bootstrap.min.js');
 	    
 
