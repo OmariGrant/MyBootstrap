@@ -17,10 +17,6 @@ function addBootstrap() {
 add_action( 'wp_enqueue_scripts', 'addBootstrap' );
 
 
-
-
-
-
 /**
  * Register our sidebars and widgetized areas.
  *
@@ -44,6 +40,14 @@ add_action( 'widgets_init', 'initWidgetsLeftSidebar' );
 
 add_theme_support( 'automatic-feed-links' );
 
-
-?>
-
+//register menus for sidebar
+function registerSidebarMenu() {
+  register_nav_menus(
+    array(
+      'sidebar-menu' => __( 'Sidebar Menu' )
+     )
+   );
+ }
+ add_action( 'init', 'registerSidebarMenu' );
+ 
+ ?>

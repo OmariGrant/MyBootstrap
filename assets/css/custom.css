@@ -15,7 +15,7 @@ h1{
   background: linear-gradient(to right, #666666 , lightgray); /* Standard syntax */
   border-right: dashed;
   border-color: white;
-      height: 100%;
+      height: auto;
       color: white;
     }
     
@@ -36,13 +36,25 @@ h1{
       .row.content {height: auto;} 
     }
 
-    .menu-item {
+    .menu-item { 
      
       border: solid;
       color: white;
       font-weight: bold;
     }
+
     .menu-item a {
+      color: lightblue;
+      font-weight: bold;
+    }
+        .page_item { 
+     
+      border: solid;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .page_item a {
       color: lightblue;
       font-weight: bold;
     }
