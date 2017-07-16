@@ -1,18 +1,38 @@
 h1{
   font-size: 50px;
+  color: lightblue;
+  font-weight: bold;
+
+
+}
+h2{
+  color: white;
+  
+}
+h4{
+  color: lightblue;
+}
+body{
+        background-image: url("https://static.pexels.com/photos/325229/pexels-photo-325229.jpeg"); 
+       background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Aldrich';
 }
 
+.frontPagePostsTitle{
+  color: lightblue;
+}
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content {height: 1000px}
     
     /* Set gray background color and 100% height */
     .sidenav {
-      background-color: #666666;
-  background: #666666; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #666666 , lightgray); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #666666, lightgray); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #666666, lightgray); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #666666 , lightgray); /* Standard syntax */
+
+
+
   border-right: dashed;
   border-color: white;
       height: auto;
