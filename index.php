@@ -12,10 +12,6 @@
     <?php get_template_part( 'template-parts/homepage', 'posts' ); ?>
 
 
-    
-
-
-
       
       
     </div>

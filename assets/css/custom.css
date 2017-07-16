@@ -1,0 +1,42 @@
+h1{
+  font-size: 50px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1000px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #666666;
+      height: 100%;
+      color: white;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
+/*start homepage banner css*/
+    .bannerImage {
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-caption {
+      color: gray;
+      margin-top: 200px; 
+    }
+/*end homepage banner css*/

@@ -13,6 +13,7 @@ foreach ( $postslist as $post ) :
   </div>
 <?php
 endforeach; 
+wp_link_pages(); 
 wp_reset_postdata();
 ?>
 <!-- end show recent post -->

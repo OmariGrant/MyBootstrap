@@ -9,12 +9,10 @@
     <div class="col-sm-9">
 
 
-<?php get_template_part( 'template-parts/post', 'content' ); ?>
-    
-
-
-
+<?php get_template_part( 'template-parts/post', 'content' );
       
+ ?>
+
       
     </div>
   </div>
