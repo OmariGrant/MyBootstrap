@@ -1,11 +1,11 @@
     /*
-Theme Name: BootstrapByOG
-Theme URI: http://ogrant.co.uk
+Theme Name: 321Backup
+Theme URI: 321Backup.co.uk
 Author: Omari Grant
 Author URI: http://ogrant.co.uk
-Description: A customizable theme with Bootstrap
+Description: 321Backup.co.uk
 Version: 1.0
-Text Domain: BootstrapByOG
+Text Domain: 321Backup
 */
 
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
@@ -31,4 +31,9 @@ Text Domain: BootstrapByOG
         padding: 15px;
       }
       .row.content {height: auto;} 
+    }
+
+
+    .carousel-inner img {
+  
     }
