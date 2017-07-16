@@ -8,6 +8,13 @@ h1{
     /* Set gray background color and 100% height */
     .sidenav {
       background-color: #666666;
+  background: #666666; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #666666 , lightgray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #666666, lightgray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #666666, lightgray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #666666 , lightgray); /* Standard syntax */
+  border-right: dashed;
+  border-color: white;
       height: 100%;
       color: white;
     }
