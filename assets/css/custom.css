@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Aldrich);
 h1{
   font-size: 50px;
   color: lightblue;
@@ -30,9 +31,6 @@ body{
     
     /* Set gray background color and 100% height */
     .sidenav {
-
-
-
   border-right: dashed;
   border-color: white;
       height: auto;
